@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jellyGod_DesignModle_1703581638214-pr-trigger-input-set
+  identifier: Build_jellyGod_DesignModle_1703581638214prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_jellyGod_DesignModle_1703581638214
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
